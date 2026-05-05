@@ -1,6 +1,6 @@
 # Well Illumination System
 
-The goal of this system is to provide independent and precise control of a 24-LED matrix composed of high-power LEDs. The architecture is divided into two main stages: two dedicated PCA9685 PWM controllers that handle 12 channels each, and individual power modules equipped with AL8861 components. 
+The goal of this system is to provide independent and precise control of a 24-LED matrix composed of high-power LEDs to independently illuminate 24 wells of a Greiner plate containing duckweed. This setup is integrated within a Jubilee robot architecture (a 3D printer transformed into a plant culture robot). The architecture is divided into two main stages: two dedicated PCA9685 PWM controllers that handle 12 channels each, and individual power modules equipped with AL8861 components. 
 
 ## 1. 24-LED Control Board
 
